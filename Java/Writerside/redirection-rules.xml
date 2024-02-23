@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="41198a1f">
+        <description>Created after removal of "This is the first topic" from Help Instance</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="2154d270">
+        <description>Created after removal of "Lamdba" from Java Note</description>
+        <accepts>Lamdba2.html</accepts>
+    </rule>
+    <rule id="d8dcfbd">
+        <description>Created after removal of "Maven" from Java Note</description>
+        <accepts>maven-new.html</accepts>
+    </rule>
+    <rule id="6bd7bc22">
+        <description>Created after removal of "什么是 JVM" from Java Note</description>
+        <accepts>what-is-jvm.html</accepts>
+    </rule>
+    <rule id="164231d7">
+        <description>Created after removal of "Java Stream API" from Java Note</description>
+        <accepts>Java-Stream-API.html</accepts>
+    </rule>
+    <rule id="5c3baa2a">
+        <description>Created after removal of "文件输入输出" from Java Note</description>
+        <accepts>file-io.html</accepts>
+    </rule>
+    <rule id="ebc12ac">
+        <description><![CDATA[Created after removal of "<Empty-MD-Topic.md>" from Java Note]]></description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="7be365c">
+        <description>Created after removal of "字节流和字符流" from Java Note</description>
+        <accepts>byte-stream-and-char-stream.html</accepts>
+    </rule>
+</rules>

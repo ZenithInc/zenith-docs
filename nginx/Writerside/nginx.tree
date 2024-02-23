@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="nginx"
+                 name="Nginx"
+                 start-page="basic.md">
+
+    <toc-element topic="basic.md">
+        <toc-element topic="the-architecture-of-nginx.md"/>
+        <toc-element topic="nginx-introduction.md"/>
+        <toc-element topic="Brotli.md"/>
+        <toc-element topic="log-rotation.md">
+        </toc-element>
+        <toc-element topic="stub_status.md"/>
+        <toc-element topic="go-access.md"/>
+        <toc-element topic="OpenResty.md"/>
+        <toc-element topic="load-balancing.md"/>
+        <toc-element topic="lvs.md"/>
+        <toc-element topic="keepalived.md"/>
+    </toc-element>
+</instance-profile>

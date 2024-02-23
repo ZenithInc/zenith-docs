@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="pn"
+                 name="Python 笔记"
+                 start-page="basic.md">
+
+    <toc-element topic="basic.md">
+        <toc-element topic="zen.md"/>
+        <toc-element topic="hello-world.md"/>
+        <toc-element topic="virtual-env.md"/>
+        <toc-element topic="basic-syntax.md"/>
+        <toc-element topic="Strings.md"/>
+        <toc-element topic="list-tupe.md"/>
+        <toc-element topic="dict-set.md"/>
+        <toc-element topic="exceptions.md"/>
+        <toc-element topic="oop.md"/>
+        <toc-element topic="HTTP-Request.md"/>
+        <toc-element topic="cli.md"/>
+    </toc-element>
+    <toc-element topic="Adv.md">
+        <toc-element topic="python-interceptor.md"/>
+        <toc-element topic="function-first.md"/>
+        <toc-element topic="Lambda.md"/>
+        <toc-element topic="decorator.md"/>
+        <toc-element topic="with.md"/>
+        <toc-element topic="generator_yield.md"/>
+        <toc-element topic="multi-threads.md"/>
+        <toc-element topic="global-interpreter-lock.md"/>
+    </toc-element>
+    <toc-element topic="Flask.md">
+        <toc-element topic="fast-gudie.md"/>
+        <toc-element topic="orm.md"/>
+    </toc-element>
+</instance-profile>

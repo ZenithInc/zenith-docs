@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="83068e0">
+        <description>Created after removal of "This is the first topic" from Help Instance</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="4fbea1e2">
+        <description>Created after removal of "关于我们" from 幸好编程技术公开知识库</description>
+        <accepts>关于我们.html</accepts>
+    </rule>
+    <rule id="274997dc">
+        <description>Created after removal of "Reference" from 幸好编程技术公开知识库</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="3c8ec528">
+        <description>Created after removal of "Section Starting Page" from 幸好编程技术公开知识库</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="6046cbd6">
+        <description>Created after removal of "编程语言索引" from 幸好编程技术公开知识库</description>
+        <accepts>languages.html</accepts>
+    </rule>
+    <rule id="f2fd7b0">
+        <description>Created after removal of "Starter" from 幸好编程技术公开知识库</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="735e518f">
+        <description>Created after removal of "2024年修订记录" from 幸好编程技术公开知识库</description>
+        <accepts>2024年.html</accepts>
+    </rule>
+</rules>

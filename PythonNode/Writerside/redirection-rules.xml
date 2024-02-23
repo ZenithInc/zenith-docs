@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="51b5dfa9">
+        <description>Created after removal of "This is the first topic" from Help Instance</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="15d62bd">
+        <description>Created after removal of "Reference" from Python Note</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="5cd8fc92">
+        <description>Created after removal of "如果是多个条件" from Python Note</description>
+        <accepts>database.html</accepts>
+    </rule>
+</rules>

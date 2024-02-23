@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="pm"
+                 name="软件项目管理"
+                 start-page="overview.md">
+
+    <toc-element topic="overview.md"/>
+    <toc-element topic="life-cycle.md"/>
+    <toc-element topic="ten-key-knowledge-areas-in-project-management.md"/>
+</instance-profile>

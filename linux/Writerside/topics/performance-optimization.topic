@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Linux &#24615;&#33021;&#20248;&#21270;" id="performance-optimization">
+
+    <p>Linux 性能优化是一个并不容易深入的课题，从基本工具的使用到深入内核参数优化，是需要持续学习下去的。设计应用层、内核、网络、安全等方面。</p>
+
+    <p>这一系列的文档将从一些基础的工具的应用说起，比如 <code>top</code> 、<code>htop</code>、<code>vmstat</code>、<code>iostat</code>
+    <code>netstate</code></p>
+</topic>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="m"
+                 name="mysql"
+                 start-page="basic.md">
+
+    <toc-element topic="basic.md">
+        <toc-element topic="choosing-the-right-database-technology.md"/>
+        <toc-element topic="relational-database-design-normalization-forms.md"/>
+        <toc-element topic="json.md"/>
+        <toc-element topic="wide-table.md"/>
+    </toc-element>
+    <toc-element topic="practice-and-operations.md">
+        <toc-element topic="MySQL-Dump.md"/>
+        <toc-element topic="sharding.md"/>
+        <toc-element topic="master-slave-replication.md"/>
+    </toc-element>
+    <toc-element topic="storage-engine.md">
+        <toc-element topic="InnoDB-Record-Storage-Structure.md"/>
+        <toc-element topic="InnoDB-index-page-structure.md"/>
+    </toc-element>
+</instance-profile>

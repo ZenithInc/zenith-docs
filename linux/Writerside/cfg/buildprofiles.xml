@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables></variables>
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+    <build-profile instance="linux">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <header-logo>linux.svg</header-logo>
+        </variables>
+    </build-profile>
+    <footer>
+        <link href="https://doc.hacking.icu/lucky-program-tech-open-source-document-index.html">幸好编程公开知识库</link>
+    </footer>
+</buildprofiles>

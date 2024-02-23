@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="jn"
+                 name="Java Note"
+                 start-page="basic.md">
+
+    <toc-element topic="basic.md">
+        <toc-element topic="override.md"/>
+        <toc-element topic="java-primitive-data-types.md"/>
+        <toc-element topic="String.md"/>
+        <toc-element topic="BigDecimal.md"/>
+        <toc-element topic="Collections.md"/>
+        <toc-element topic="Enums.md"/>
+        <toc-element topic="Optional.md"/>
+        <toc-element topic="generic.md"/>
+        <toc-element topic="Lamdba.md"/>
+        <toc-element topic="Exceptions.md"/>
+        <toc-element topic="calendar.md"/>
+        <toc-element topic="IO.md"/>
+        <toc-element topic="reflects.md"/>
+        <toc-element topic="attributes.md"/>
+        <toc-element topic="logging.md"/>
+        <toc-element topic="LSP.md"/>
+        <toc-element topic="Maven.md"/>
+    </toc-element>
+    <toc-element topic="oop.md">
+        <toc-element topic="object-oriented-features.md"/>
+        <toc-element topic="interface-and-abstract-class.md"/>
+        <toc-element topic="design-patterns.md"/>
+        <toc-element topic="Decorator.md"/>
+    </toc-element>
+    <toc-element topic="Concurrency.md">
+        <toc-element topic="DiffConcurrencyAndParallelism.md"/>
+        <toc-element topic="start_threads.md"/>
+        <toc-element topic="started.md"/>
+        <toc-element topic="stop_threads.md"/>
+        <toc-element topic="Synchroninzed.md"/>
+        <toc-element topic="thread_status.md"/>
+    </toc-element>
+    <toc-element topic="networking-programming.md">
+        <toc-element topic="字节流和字符流.md"/>
+        <toc-element topic="bio-nio-aio.md"/>
+        <toc-element topic="NIO-Core-Buffer.md"/>
+        <toc-element topic="NIO-Core-Channel.md"/>
+        <toc-element topic="use-websocket-in-springboot.md"/>
+        <toc-element topic="Protocol-Buffers.md"/>
+        <toc-element topic="socket-io.md"/>
+        <toc-element topic="Netty.md"/>
+    </toc-element>
+    <toc-element topic="SpringBoot.md">
+        <toc-element topic="spring-family.md"/>
+        <toc-element topic="fast-guide.md"/>
+        <toc-element topic="basic-configure.md"/>
+        <toc-element topic="spring-ioc-core.md"/>
+        <toc-element topic="condition-attribute.md"/>
+        <toc-element topic="factory-pattern.md"/>
+        <toc-element topic="using-the-strategy-design-pattern.md"/>
+        <toc-element topic="Spring-Data-Redis.md"/>
+        <toc-element topic="unit-test.md"/>
+    </toc-element>
+    <toc-element topic="jpa.md">
+        <toc-element topic="jpa-basic.md"/>
+        <toc-element topic="entity.md"/>
+        <toc-element topic="epository.md"/>
+    </toc-element>
+    <toc-element topic="libs.md">
+        <toc-element topic="Protobuf.md"/>
+        <toc-element topic="arthas.md"/>
+        <toc-element topic="aliyun-sls.md"/>
+        <toc-element topic="BCrypt-password-encoder.md"/>
+        <toc-element topic="Lombok.md"/>
+        <toc-element topic="JWT.md"/>
+        <toc-element topic="RocketMQ-ONS-SDK.md"/>
+        <toc-element topic="Spring-State-Machine.md"/>
+        <toc-element topic="TOTP.md"/>
+        <toc-element topic="excel.md"/>
+        <toc-element topic="easy-rule.md"/>
+    </toc-element>
+    <toc-element topic="JVM.md">
+        <toc-element topic="bytecode.md"/>
+        <toc-element topic="how-a-single-line-of-java-code-executes.md"/>
+        <toc-element topic="JIT.md"/>
+        <toc-element topic="instructions.md"/>
+        <toc-element topic="class-loader.md"/>
+        <toc-element topic="memory-manager-heap-and-stack.md"/>
+    </toc-element>
+</instance-profile>

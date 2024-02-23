@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="&#24184;&#22909;&#32534;&#31243;&#25216;&#26415;&#24320;&#28304;&#30693;&#35782;&#24211;" id="lucky-program-tech-open-source-document-index">
+
+
+    <section-starting-page id="starting">
+        <title>编程语言索引</title>
+        <description>下面是关于编程语言的文档索引，希望能覆盖主流的编程语言，例如 Java、PHP、Python、Go、JavaScript、C/C++、Rust 等</description>
+
+        <spotlight>
+            <a href="https://java.doc.hacking.icu/basic.html" type="documents" summary="Java 是一门工业级的编程语言，拥有完善的生态。在世界范围内也广为流行。">
+                Java 编程入门指南
+            </a>
+            <a href="https://python.doc.hacking.icu/basic.html" type="library" summary="Python 在世界范围内非常流行，老少咸宜。并且随着 AI 的兴起，成为了该领域的首选语言。">
+                Python 编程入门指南
+            </a>
+        </spotlight>
+
+        <primary>
+            <title>知识库导航</title>
+            <a href="https://wiki.wgpsec.org" summary="致力于打造信息安全乌托邦">狼安全团队公开知识库</a>
+            <a href="https://stabilityman.github.io" summary="【稳定大于一切】打造国内稳定性领域知识库，让无法解决的问题少一点点，让世界的确定性多一点点。">稳定性领域知识库</a>
+        </primary>
+
+        <secondary>
+            <title>技术博客导航</title>
+            <a href="https://xiaolincoding.com/" summary="图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！">小林Coding</a>
+            <a href="https://imroc.cc" summary="云原生老司机一枚，热爱开源和分享，欢迎一起交流">roc 云原生</a>
+        </secondary>
+
+    </section-starting-page>
+
+</topic>

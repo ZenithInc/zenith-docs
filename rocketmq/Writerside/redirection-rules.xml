@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5046f8ac">
+        <description>Created after removal of "This is the first topic" from rocketmq</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="3660735a">
+        <description>Created after removal of "基础入门" from mq</description>
+        <accepts>basic.html</accepts>
+    </rule>
+    <rule id="56af3130">
+        <description>Created after removal of "基础入门" from rocketmq</description>
+        <accepts>基础入门.html</accepts>
+    </rule>
+    <rule id="30de2187">
+        <description>Created after removal of "快速入门" from mq</description>
+        <accepts>fast-guide.html</accepts>
+    </rule>
+</rules>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="container"
+                 name="Container"
+                 start-page="Default-topic.md">
+
+    <toc-element topic="what-is-container.md"/>
+    <toc-element topic="docker.md">
+        <toc-element topic="what-is-docker.md"/>
+        <toc-element topic="container-manager.md"/>
+        <toc-element topic="image-manager.md"/>
+        <toc-element topic="storage-manager.md"/>
+        <toc-element topic="network-manager.md"/>
+    </toc-element>
+</instance-profile>

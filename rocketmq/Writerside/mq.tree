@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="mq"
+                 name="mq"
+                 start-page="basic.md">
+
+    <toc-element topic="basic.md">
+        <toc-element topic="about-mq.md"/>
+        <toc-element topic="mq-model.md"/>
+        <toc-element topic="exploring-rocketmq-cluster-architecture-and-principles.md"/>
+        <toc-element topic="RocketMQ-quick-start-guide.md"/>
+    </toc-element>
+</instance-profile>
