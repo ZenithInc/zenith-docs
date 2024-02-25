@@ -59,6 +59,7 @@
         <toc-element topic="using-the-strategy-design-pattern.md"/>
         <toc-element topic="Spring-Data-Redis.md"/>
         <toc-element topic="unit-test.md"/>
+        <toc-element topic="Spring-Boot-Starter.md"/>
     </toc-element>
     <toc-element topic="jpa.md">
         <toc-element topic="jpa-basic.md"/>

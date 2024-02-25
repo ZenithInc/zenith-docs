@@ -1,5 +1,11 @@
 # 修订记录
 
+* 1.18.0 2024-02-25
+  * 《Python 编程入门指南》新增[《进程基础》](https://python.doc.hacking.icu/processes-baisc.html#file-descriptors)一文
+  * 《Python 编程入门指南》新增[《探究 finally》](https://python.doc.hacking.icu/finally.html)一文
+  * 《Python 编程入门指南》新增[《Abc模块和抽象基类》](https://python.doc.hacking.icu/abc-moudle.html)一文
+  * 《Java 编程入门指南》新增[《Spring Boot Starter》](https://java.doc.hacking.icu/spring-boot-starter.html)一文
+
 * 1.17.0 2024-02-02
   * 《Go 编程入门指南》新增[《协程是如何运行的》](https://go.doc.hacking.icu/how-the-coroutine-works.html)一文
   * 《Go 编程入门指南》新增[《Go 语言的内存模型》](https://go.doc.hacking.icu/go-memory-model.html)一文

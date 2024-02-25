@@ -172,4 +172,4 @@ def print_log(func):
     return wrapper
 ```
 
-之后我们调用 `print(greet.__name__)` 或者 `print(greet.__doc__)` 打印出来就回是 `greet` 函数本身的元数据了。
+之后我们调用 `print(greet.__name__)` 或者 `print(greet.__doc__)` 打印出来就回是 `greet` 函数本身的元数据了。
