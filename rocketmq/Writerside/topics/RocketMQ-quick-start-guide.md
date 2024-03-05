@@ -212,6 +212,10 @@ Push Consumer 需要严格控制消息的消费时间，尽量避免出现消息
 
 ## 接入 SpringBoot {id="spring-boot"}
 
+在 SpringBoot 中集成 RocketMQ 是非常容易的。安装依赖、添加配置、然后生产以及消费即可。 
+
+### 安装依赖 {id="install"}
+
 接着，我们可以尝试在 SpringBoot 中接入 RocketMQ。这里使用 Maven 进行演示，首先申明依赖:
 ```xml
 <dependency>
@@ -219,18 +223,29 @@ Push Consumer 需要严格控制消息的消费时间，尽量避免出现消息
     <artifactId>rocketmq-spring-boot-starter</artifactId>
     <version>${rocketmq.spring.version}</version>
 </dependency>
-<dependency>
-    <groupId>org.apache.rocketmq</groupId>
-    <artifactId>rocketmq-client</artifactId>
-    <version>${rocketmq.version}</version>
-</dependency>
 ```
+
+### 配置 {id="configure"}
 
 然后在项目的配置文件中加入 RocketMQ 相关的配置:
 ```yaml
 rocketmq:
   name-server: 47.236.128.181:9876
 ```
+
+### 生产消息 {id="produce"}
+
+生产消息非常简单，示例如下:
+```Java
+@Autowirted
+private RocketMQTemplate rocketMQTemplate;
+
+public void send(String topic, String message) {
+     rocketMQTemplate.convertAndSend(topic, message);
+}
+```
+
+### 消费消息 {id="consume"}
 
 接着，我们就可以直接写一个消费者的 `Listener` 了，代码也非常简洁:
 ```Java

@@ -4,9 +4,15 @@
 
 <instance-profile id="php"
                  name="php"
-                 start-page="Default-topic.md">
+                 start-page="basic.md">
 
     <toc-element topic="basic.md">
         <toc-element topic="fast-guide.md"/>
+        <toc-element topic="PHP8-new-features.md"/>
+    </toc-element>
+    <toc-element topic="Laravel.md">
+        <toc-element topic="use-docker.md"/>
+        <toc-element topic="Laravel-Basic.md"/>
+        <toc-element topic="unittests.md"/>
     </toc-element>
 </instance-profile>

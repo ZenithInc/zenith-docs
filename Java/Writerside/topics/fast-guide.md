@@ -213,6 +213,8 @@ public void testGet() {
 
 如果是其他方法的请求，比如 POST 可以使用 `client.postForObject()` 之类的方法。
 
+> 
+
 ### 拦截器
 
 比如在处理用户登录的时候，我们可能会需要做一些用户限流、权限控制的操作。这些操作，我们可以通过 Spring 中的拦截器(Interceptor) 来实现。

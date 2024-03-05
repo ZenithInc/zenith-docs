@@ -1,5 +1,11 @@
 # 修订记录
 
+* 1.19.1 2024-02-27
+  * 《消息队列入门指南》的《RocketMQ 快速入门》新增[《生产消息》](https://mq.doc.hacking.icu/rocketmq-quick-start-guide.html#produce)章节
+
+* 1.19.0 2024-02-26
+  * 《PHP 编程入门指南》新增[《PHP8 重要特性》](https://php.doc.hacking.icu/php8-new-features.html)一文
+
 * 1.18.0 2024-02-25
   * 《Python 编程入门指南》新增[《进程基础》](https://python.doc.hacking.icu/processes-baisc.html#file-descriptors)一文
   * 《Python 编程入门指南》新增[《探究 finally》](https://python.doc.hacking.icu/finally.html)一文
