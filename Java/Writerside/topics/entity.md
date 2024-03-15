@@ -155,3 +155,46 @@ public class UserEntity {
 | `TemporalType.DATE`      | 仅映射日期部分（年月日），不包括时间          |
 | `TemporalType.TIME`      | 仅映射时间部分（小时、分钟、秒），不包括日期      |
 | `TemporalType.TIMESTAMP` | 映射完整的日期和时间（年月日小时分钟秒，通常包括毫秒） |
+
+## 属性类型映射 {id="attribute-type-mapping"}
+
+在实际开发中，经常会出现存储的字段类型，和代码中的类型不相符的情况。比如有一个角色的字段，在数据库中使用的是 `varchar` 类型（例如 `admin, manger`），但是代码中使用的是 `List<String>` 类型。模型定义如下:
+
+```Java
+@Entity
+class User {
+    public List<String> roles;
+}
+```
+我希望写入的时候，自动将 `List<String>` 转为 `String` 类型，而读取的时候自动将 `admin, manager` 按照 `,` 分割转为 `List<String>` 类型。可以为属性的执行添加一个转换器。具体做法如下:
+
+1. 实体类上添加 `@javax.persistence.AttribuiteConverter(autoApply = true)` 注解:
+```Java
+import javax.persistence.AttributeConverter;
+
+@Entity
+@Convert(converter = StringListTypeConverter.class)
+class User {
+    public List<String> roles;
+} 
+```
+
+定义 `StringListTypeConverter` 类如下:
+```Java
+import javax.persistence.AttributeConverter;
+import java.util.Arrays;
+import java.util.List;
+
+public class StringListTypeConverter implements AttributeConverter<List<String>, String> {
+
+    @Override
+    public String convertToDatabaseColumn(List<String> strings) {
+        return String.join(",", strings);
+    }
+
+    @Override
+    public List<String> convertToEntityAttribute(String joined) {
+        return Arrays.asList(joined.split(","));
+    }
+}
+```

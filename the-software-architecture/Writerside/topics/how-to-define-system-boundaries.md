@@ -13,6 +13,9 @@
 * **职责单一**：引起系统（模块）发生变化的原因只能有一个。举例来说，比如在一个 `UserManager` 的类中，有一个 `sendSms` 的方法，就违反了这个原则。如果发送短信的逻辑变了，这个用户管理类也需要发生变化。
 * **松耦合**: 违反了职责单一的同时，其实也不符合松耦合这个原则。单一的组件承担了太多的职责，不同的组件之间紧密关联，常常牵一发动全身。
 
+## DSSA 方法 {id="domain-storytelling-software-architecture"}
+
+![Domain Storytelling Software Architecture](http://file-linker.oss-cn-hangzhou.aliyuncs.com/45CTD7mpsLg5NqfiQudN.png)
 
 
 ## 相关文章 {id="related-articles"}

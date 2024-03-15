@@ -1,5 +1,16 @@
 # 修订记录
 
+* 1.20.1 2024-03-11
+  * 《Java 编程入门指南》的《JPA Entity》 一文中新增[《属性类型映射》](https://java.doc.hacking.icu/entity.html#attribute-type-mapping)段落
+  * 《Java 编程入门指南》的《JPA Repository》一文中新增[《查询》](https://java.doc.hacking.icu/epository.html#query)段落
+
+* 1.20.0 2024-03-05
+  * 《软件架构设计》新增[《高内聚和低耦合》](https://architecture.doc.hacking.icu/high-cohesion-and-low-coupling.html)一文
+  * 《软件架构设计》新增[《AKF 扩展立方体》](https://architecture.doc.hacking.icu/akf-scaling-cube.html)一文
+  * 《PHP 编程入门指南》新增[《Docker环境搭建》](https://php.doc.hacking.icu/use-docker.html)一文
+  * 《PHP 编程入门指南》新增[《Laravel 快速入门》](https://php.doc.hacking.icu/laravel-basic.html)一文
+  * 《PHP 编程入门指南》新增[《在 Laravel 中进行单元测试》](https://php.doc.hacking.icu/unittests.html)一文
+
 * 1.19.1 2024-02-27
   * 《消息队列入门指南》的《RocketMQ 快速入门》新增[《生产消息》](https://mq.doc.hacking.icu/rocketmq-quick-start-guide.html#produce)章节
 

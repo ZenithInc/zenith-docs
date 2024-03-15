@@ -20,9 +20,12 @@
     <toc-element topic="DDD-Overview.md">
         <toc-element topic="the-domain-driven-design.md"/>
     </toc-element>
-    <toc-element topic="oop.md"/>
+    <toc-element topic="oop.md">
+        <toc-element topic="high-cohesion-and-low-coupling.md"/>
+    </toc-element>
     <toc-element topic="microservice.md">
         <toc-element topic="design-patterns.md"/>
+        <toc-element topic="AKF-Scaling-Cube.md"/>
     </toc-element>
     <toc-element topic="refactoring.md">
         <toc-element topic="refactoring-branch-statements.md"/>

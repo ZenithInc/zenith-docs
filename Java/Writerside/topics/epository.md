@@ -31,7 +31,7 @@ public class UserEntity {
 public interface UserEntityRepository extends JpaRepository<UserEntity, Long> {}
 ```
 
-## CURL {id="curl"}
+## 创建实体 {id="save"}
 
 `Repository` 创建并持久化一个实体:
 ```Java
@@ -41,5 +41,34 @@ user.setPassword(body.getPassword());
 userEntityRepository.save(user);
 ```
 
+## 查询 {id="query"}
 
+分页查询也是一个很常见的操作，如下示例:
+```Java
+Pageable pageable = PageRequest.of(0, 10, Sort.by("id"));
+List<UserEntity> users = userRepository.findAll(pageable).getContent();
+users.forEach(user -> System.out.println(user.getUsername()));
+```
 
+如果是携带更复杂的参数的分页查询，如下示例:
+```Java
+@Service
+@AllArgsConstructor
+public class UserQueryService {
+
+    private final UserRepository userRepository;
+
+    private static class UserQuerySpecs {
+      public static Specification<UserEntity> hasUsername(String username) {
+            return (root, criteriaQuery, criteriaBuilder) ->
+                    username == null ? null : criteriaBuilder.equal(root.get("username"), username);
+      }
+    }
+    
+    public Page<UserEntity> queryBySpecification(String username) {
+        Pageable pageable = PageRequest.of(0, 10, Sort.by("id"));
+        Specification<UserEntity> spec = Specification.where(UserQuerySpecs.hasUsername(username));
+        return userRepository.findAll(spec, pageable);
+    }
+}
+```
