@@ -9,6 +9,7 @@
     <toc-element topic="basic.md">
         <toc-element topic="fast-guide.md"/>
         <toc-element topic="PHP8-new-features.md"/>
+        <toc-element topic="Gitlab-Workflow.md"/>
     </toc-element>
     <toc-element topic="Laravel.md">
         <toc-element topic="use-docker.md"/>
