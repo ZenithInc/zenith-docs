@@ -10,4 +10,8 @@
         <description>Created after removal of "This is the first topic" from Help Instance</description>
         <accepts>Default-topic.html</accepts>
     </rule>
+    <rule id="65807169">
+        <description>Created after removal of "什么是微服务" from The Software Architecture</description>
+        <accepts>what-is-microservices.html</accepts>
+    </rule>
 </rules>

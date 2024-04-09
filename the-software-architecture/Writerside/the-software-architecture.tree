@@ -8,6 +8,7 @@
 
     <toc-element topic="what-is-software-architecture.md"/>
     <toc-element topic="Overview-of-Large-Scale-Application-Architecture.md"/>
+    <toc-element topic="how-to-conduct-requirement-analysis.md"/>
     <toc-element topic="basic.md">
         <toc-element topic="UML.md"/>
         <toc-element topic="api-design.md"/>
@@ -17,13 +18,26 @@
         <toc-element topic="how-to-assess-system-resource-requirements.md"/>
         <toc-element topic="how-to-make-informed-technology-choices.md"/>
     </toc-element>
+    <toc-element topic="devops.topic">
+        <toc-element topic="agile.md"/>
+        <toc-element topic="DevSecOps.md"/>
+        <toc-element topic="Jenkins-Pipeline.md"/>
+        <toc-element topic="TeamCity.md"/>
+    </toc-element>
     <toc-element topic="DDD-Overview.md">
         <toc-element topic="the-domain-driven-design.md"/>
     </toc-element>
     <toc-element topic="oop.md">
         <toc-element topic="high-cohesion-and-low-coupling.md"/>
     </toc-element>
+    <toc-element topic="分布式系统设计.md">
+        <toc-element topic="from-monolithic-to-distributed-applications.md"/>
+        <toc-element topic="CAP.md"/>
+        <toc-element topic="BASE.md"/>
+        <toc-element topic="distributed-caching.md"/>
+    </toc-element>
     <toc-element topic="microservice.md">
+        <toc-element topic="what-are-microservices.md"/>
         <toc-element topic="design-patterns.md"/>
         <toc-element topic="AKF-Scaling-Cube.md"/>
     </toc-element>

@@ -30,5 +30,7 @@
     </tr>
     <tr>
         <td><a href="https://zddhub.com/">ZDDHUB</a></td>
+        <td><a href="https://microservices.io/">Microservice Architecture</a></td>
+        <td><a href="https://blog.aurynn.com">The Particular Finest</a></td>
     </tr>
 </table>

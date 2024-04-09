@@ -1,5 +1,33 @@
 # 修订记录
 
+* 1.26.0 2024-04-09
+  * 《软件架构设计》新增[《Jenkins Pipeline》](https://architecture.doc.hacking.icu/jenkins-pipeline.html)一文
+
+* 1.25.0 2024-04-08
+  * 《软件架构设计》新增[《DevSecOps》](https://architecture.doc.hacking.icu/devsecops.html)一文
+
+* 1.24.0 2024-04-04
+  * 《软件架构设计》修改[《什么是软件架构》](https://architecture.doc.hacking.icu/what-is-software-architecture.html#what-is-software-architect) 一文，新增图示、段落《架构的目的》、《架构的核心思想》等
+  * 《软件架构设计》修改[《大型应用的架构概述》](https://architecture.doc.hacking.icu/overview-of-large-scale-application-architecture.html)一文，删除《大型应用的演进过程》这一段落
+  * 《软件架构设计》新增[《什么是微服务》](https://architecture.doc.hacking.icu/what-are-microservices.html)一文
+  * 《软件架构设计》新增[《单体应用到分布式应用》](https://architecture.doc.hacking.icu/from-monolithic-to-distributed-applications.html)一文
+  * 《软件架构设计》新增[《CAP 理论》](https://architecture.doc.hacking.icu/cap.html)一文
+  * 《软件架构设计》新增[《Base 理论》](https://architecture.doc.hacking.icu/base.html)一文
+  * 《软件架构设计》[《高内聚和低耦合》](https://architecture.doc.hacking.icu/high-cohesion-and-low-coupling.html)一文新增段落《耦合和内聚的历史》
+  * 《Java 编程入门指南》修改[《面向对象的特性》](https://java.doc.hacking.icu/object-oriented-features.html) 一文，新增段落《封装》
+  * 《PHP 编程入门指南》新增[《PHP 以及 PHPer 经受的嘲讽》](https://php.doc.hacking.icu/the-mockery-endured-by-php-and-phpers.html)一文
+
+* 1.23.0 2024-03-28
+  * 《Java 编程入门指南》新增[《六大原则之开闭原则》](https://java.doc.hacking.icu/open-close-principle.html)一文
+  * 《Java 编程入门指南》新增[《六大原则之里氏替换原则》](https://java.doc.hacking.icu/liskov-subsitution-principle.html)一文
+  * 《Java 编程入门指南》新增[《六大原则之迪米特法则》](https://java.doc.hacking.icu/law-of-demeter.html)一文
+
+* 1.22.0 2024-03-27
+  * 《Java 编程入门指南》新增[《六大原则之单一职责》](https://java.doc.hacking.icu/single-responsibility-principle.html)一文
+
+* 1.21.0 2024-03-25
+  * 《软件架构设计》新增[《敏捷软件开发》](https://architecture.doc.hacking.icu/agile.html)一文
+
 * 1.20.1 2024-03-11
   * 《Java 编程入门指南》的《JPA Entity》 一文中新增[《属性类型映射》](https://java.doc.hacking.icu/entity.html#attribute-type-mapping)段落
   * 《Java 编程入门指南》的《JPA Repository》一文中新增[《查询》](https://java.doc.hacking.icu/epository.html#query)段落

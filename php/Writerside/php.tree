@@ -16,4 +16,5 @@
         <toc-element topic="Laravel-Basic.md"/>
         <toc-element topic="unittests.md"/>
     </toc-element>
+    <toc-element topic="The-Mockery-Endured-by-PHP-and-PHPers.md"/>
 </instance-profile>
